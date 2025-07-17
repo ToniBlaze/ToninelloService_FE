@@ -1,0 +1,42 @@
+/* src/style/hero.css */
+
+.hero-gradient {
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* esempio blu */
+}
+
+#hero_ctn {
+  margin-top: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* Animazioni (facoltative) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 1s ease-out;
+}
