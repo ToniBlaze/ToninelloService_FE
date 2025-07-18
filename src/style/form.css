@@ -1,0 +1,11 @@
+.form-container {
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px;
+	background: rgb(255, 255, 255);
+	border-radius: 16px;
+	padding: 32px;
+}
+
+.margin-container {
+	margin-left: 6rem;
+	margin-right: 6rem;
+}

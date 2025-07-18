@@ -5,10 +5,6 @@ body {
   color: #333;
 }
 
-.app-container {
-  padding-bottom: 4rem;
-}
-
 .hero {
   padding: 3rem 2rem;
   background-size: cover;

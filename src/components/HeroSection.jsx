@@ -7,8 +7,9 @@ import elettricistaImg from "../assets/images/elettricista.jpg";
 export function HeroSection() {
   return (
     <section id="hero_ctn" className="hero-gradient text-white">
-      <Container>
-        <Row className="align-items-center justify-content-evenly">
+      <Container fluid>
+        <div className="d-flex align-items-center justify-content-evenly">
+
           {/* Testo a sinistra */}
           <Col md={6} className="mb-4 mb-md-0 animate-fade-in">
             <h2 className="display-5 fw-bold mb-4">
@@ -39,10 +40,11 @@ export function HeroSection() {
               src={elettricistaImg}
               alt="Elettricista professionale al lavoro"
               className="img-fluid rounded shadow-lg object-fit-cover"
-              style={{ height: "400px", width: "100%", objectFit: "cover" }}
+              style={{ height: "350px", width: "100%", objectFit: "cover" }}
             />
           </Col>
-        </Row>
+
+        </div>
       </Container>
     </section>
   );
