@@ -19,7 +19,7 @@ export function MyNavbar() {
       bg="white"
       expand="lg"
       fixed="top"
-      className="border-bottom shadow-sm">
+      className="border-bottom shadow-sm py-2">
 
       <Container className="d-flex justify-content-between align-items-center">
 
@@ -42,12 +42,12 @@ export function MyNavbar() {
         </Navbar.Brand>
 
         {/* Contenitore a destra */}
-        <div className="d-flex align-items-center gap-3">
+        <div className="d-none d-md-flex align-items-center gap-3">
 
           {/* Telefono */}
-          <div className="d-flex align-items-center text-secondary">
+          <div className="d-flex align-items-center text-secondary me-2">
             <Phone size={20} className="me-2" />
-            <span className="fw-semibold">+39 333 123 4567</span>
+            <span className="fw-semibold">+39 331 948 6672</span>
           </div>
 
           {/* Bottone WhatsApp */}
