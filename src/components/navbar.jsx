@@ -45,9 +45,9 @@ export function MyNavbar() {
         <div className="d-none d-md-flex align-items-center gap-3">
 
           {/* Telefono */}
-          <div className="d-flex align-items-center text-secondary me-2">
-            <Phone size={20} className="me-2" />
-            <span className="fw-semibold">+39 331 948 6672</span>
+          <div className="d-flex align-items-center me-2">
+            <Phone size={20} id="navbar_phoneIcon" className="me-2" />
+            <span id="navbar_phoneNumber" className="fw-semibold">+39 331 948 6672</span>
           </div>
 
           {/* Bottone WhatsApp */}

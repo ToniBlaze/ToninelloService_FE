@@ -8,10 +8,10 @@ export function HeroSection() {
   return (
     <section id="hero_ctn" className="hero-gradient text-white">
       <Container fluid>
-        <div className="d-flex align-items-center justify-content-evenly">
+        <div className="d-flex flex-wrap align-items-center justify-content-md-between justify-content-center mx-2 mx-md-5">
 
           {/* Testo a sinistra */}
-          <Col md={6} className="mb-4 mb-md-0 animate-fade-in">
+          <Col xs={10} md={6} lg={5} className="mb-4 mb-md-0 animate-fade-in mb-5 mb-md-0 pe-3 pe-md-0">
             <h2 className="display-5 fw-bold mb-4">
               Il tuo Ciapinaro di fiducia a Bologna
             </h2>
@@ -20,14 +20,11 @@ export function HeroSection() {
               professionale e veloce per ogni esigenza di casa
             </p>
             <div className="d-flex flex-column flex-sm-row gap-3">
-              <Button variant="warning" className="text-white d-flex align-items-center gap-2">
+              <Button id="book_appointment_btn" className="text-white d-flex align-items-center gap-2">
                 <Calendar size={20} />
                 Prenota Intervento
               </Button>
-              <Button
-                variant="outline-light"
-                className="d-flex align-items-center gap-2"
-              >
+              <Button variant="outline-light" className="d-flex align-items-center gap-2" >
                 <MessageCircle size={20} />
                 Contatta su WhatsApp
               </Button>
@@ -35,12 +32,12 @@ export function HeroSection() {
           </Col>
 
           {/* Immagine a destra */}
-          <Col md={5} className="animate-slide-up">
+          <Col id="hero_image_ctn" xs={10} md={6} className="animate-slide-up">
             <img
+              id="hero_image"
               src={elettricistaImg}
               alt="Elettricista professionale al lavoro"
               className="img-fluid rounded shadow-lg object-fit-cover"
-              style={{ height: "350px", width: "100%", objectFit: "cover" }}
             />
           </Col>
 
