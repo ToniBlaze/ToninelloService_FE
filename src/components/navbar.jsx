@@ -20,13 +20,10 @@ export function MyNavbar() {
       expand="lg"
       fixed="top"
       className="border-bottom shadow-sm py-2">
-
       <Container className="d-flex justify-content-between align-items-center">
-
         {/* Brand a sinistra */}
         <Navbar.Brand href="#home" className="fw-bold">
           <div className="d-flex align-items-center">
-
             <IconBox icon={Wrench} />
 
             <div className="ps-3">
@@ -37,27 +34,35 @@ export function MyNavbar() {
                 Il tuo Ciapinaro di fiducia
               </p>
             </div>
-
           </div>
         </Navbar.Brand>
 
         {/* Contenitore a destra */}
         <div className="d-none d-md-flex align-items-center gap-3">
-
           {/* Telefono */}
           <div className="d-flex align-items-center me-2">
             <Phone size={20} id="navbar_phoneIcon" className="me-2" />
-            <span id="navbar_phoneNumber" className="fw-semibold">+39 331 948 6672</span>
+            <span id="navbar_phoneNumber" className="fw-semibold">
+              +39 331 948 6672
+            </span>
           </div>
 
           {/* Bottone WhatsApp */}
-          <Button variant="success" className="d-flex align-items-center" style={{ gap: "0.5rem" }}>
+          <Button
+            variant="success"
+            className="d-flex align-items-center"
+            style={{ gap: "0.5rem" }}
+            onClick={() =>
+              window.open(
+                "https://wa.me/393319486672?text=Ciao,%20vorrei%20un%20preventivo",
+                "_blank"
+              )
+            }
+          >
             <MessageCircle size={18} />
             WhatsApp
           </Button>
-          
         </div>
-
       </Container>
     </Navbar>
   );

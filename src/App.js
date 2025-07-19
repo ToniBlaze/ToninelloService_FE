@@ -22,7 +22,7 @@ function App() {
 
       <WhyChooseUs />
 
-      <AppointmentForm />
+      {/* <AppointmentForm /> */}
 
       <TestimonialsSection />
 

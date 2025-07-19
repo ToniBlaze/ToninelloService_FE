@@ -20,11 +20,18 @@ export function HeroSection() {
               professionale e veloce per ogni esigenza di casa
             </p>
             <div className="d-flex flex-column flex-sm-row gap-3">
-              <Button id="book_appointment_btn" className="text-white d-flex align-items-center gap-2">
+              <Button id="book_appointment_btn" className="text-white d-flex align-items-center gap-2 d-none">
                 <Calendar size={20} />
                 Prenota Intervento
               </Button>
-              <Button variant="outline-light" className="d-flex align-items-center gap-2" >
+              <Button variant="outline-light" className="d-flex align-items-center gap-2" 
+                onClick={() =>
+                  window.open(
+                    "https://wa.me/393319486672?text=Ciao,%20vorrei%20un%20preventivo",
+                    "_blank"
+                  )
+                }
+              >
                 <MessageCircle size={20} />
                 Contatta su WhatsApp
               </Button>
