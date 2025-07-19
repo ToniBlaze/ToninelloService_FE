@@ -12,19 +12,19 @@ export const ContactSection = () => (
           <h3 className="display-6 fw-bold mb-4">Contattaci Subito</h3>
           <div>
             <ContactItem Icon={Phone} iconProps={{ size: 24, className: 'text-warning' }}>
-              051 123 4567
+              331 948 6672
             </ContactItem>
             <ContactItem Icon={MessageCircle} iconProps={{ size: 24, className: 'text-success' }}>
-              +39 333 123 4567 (WhatsApp)
+              +39 331 948 6672 (WhatsApp)
             </ContactItem>
             <ContactItem Icon={Mail} iconProps={{ size: 24, className: 'text-primary' }}>
-              info@toninelloservice.it
+              toninelloservice@gmail.com
             </ContactItem>
             <ContactItem Icon={MapPin} iconProps={{ size: 24, className: 'text-danger' }}>
               Bologna e Provincia
             </ContactItem>
             <ContactItem Icon={Clock} iconProps={{ size: 24, className: 'text-warning' }}>
-              Lun-Ven: 7:00-20:00 | Sab: 8:00-18:00
+              Lun-Ven: 7:00-20:00 | Sab: 8:00-14:00
             </ContactItem>
           </div>
         </Col>
@@ -35,7 +35,7 @@ export const ContactSection = () => (
             alt="Bologna skyline"
             rounded
             fluid
-            style={{ height: '16rem', objectFit: 'cover' }}
+            style={{ height: 'auto', objectFit: 'cover' }}
             className="shadow"/>
         </Col>
 

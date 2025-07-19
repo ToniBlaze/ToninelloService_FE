@@ -30,15 +30,15 @@ export const Footer = () => (
 				<Col md={4}>
 				<h5 className="fw-semibold mb-3">Informazioni Legali</h5>
 				<ul className="list-unstyled text-secondary">
-					<li>P.IVA: IT12345678901</li>
-					<li>Assicurazione RC attiva</li>
+					<li>P.IVA: IT03998371201</li>
+					<li>Assicurazione attiva e Durc regolare</li>
 					<li>Camera di Commercio Bologna</li>
 				</ul>
 				</Col>
 			</Row>
 			<hr className="border-secondary mt-5" />
 			<div className="text-center text-secondary pt-3">
-				<p className="mb-0">© 2024 Toninello Service. Tutti i diritti riservati.</p>
+				<p className="mb-0">© 2025 Toninello Service. Tutti i diritti riservati.</p>
 			</div>
 		</Container>
 	</footer>

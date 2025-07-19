@@ -4,7 +4,7 @@ import { testimonials } from '../data/testimonials';
 
 export const TestimonialsSection = () => (
   <section className="py-5 bg-white">
-    <Container>
+    <Container className='pt-3 pb-4'>
       <div className="text-center mb-5">
         <h3 className="fw-bold">Cosa Dicono i Nostri Clienti</h3>
       </div>
