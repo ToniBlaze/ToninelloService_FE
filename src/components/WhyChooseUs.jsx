@@ -3,7 +3,7 @@ import { Shield, Clock, Award } from "lucide-react";
 
 export function WhyChooseUs() {
   return (
-    <section className="py-5 bg-white">
+    <section className="py-5 mb-5 bg-white">
       <Container>
         <div className="text-center mb-5">
           <h3 className="fw-bold text-dark mb-3">Perché Scegliere Toninello Service</h3>
