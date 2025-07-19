@@ -8,14 +8,14 @@ export function HeroSection() {
   return (
     <section id="hero_ctn" className="hero-gradient text-white">
       <Container fluid>
-        <div className="d-flex flex-wrap align-items-center justify-content-md-between justify-content-center mx-2 mx-md-5">
+        <div className="d-flex flex-wrap align-items-center justify-content-md-evenly justify-content-center">
 
           {/* Testo a sinistra */}
-          <Col xs={10} md={6} lg={5} className="mb-4 mb-md-0 animate-fade-in mb-5 mb-md-0 pe-3 pe-md-0">
+          <Col xs={10} md={5} lg={5} className="mb-4 mb-md-0 animate-fade-in mb-5 mb-md-0 pe-3 pe-md-0">
             <h2 className="display-5 fw-bold mb-4">
               Il tuo Ciapinaro di fiducia a Bologna
             </h2>
-            <p className="fs-5 mb-4 text-light">
+            <p className="mb-4 text-light hero-subtitle">
               Elettricista, Idraulico, Muratore e molto altro – Servizio
               professionale e veloce per ogni esigenza di casa
             </p>
@@ -32,7 +32,7 @@ export function HeroSection() {
           </Col>
 
           {/* Immagine a destra */}
-          <Col id="hero_image_ctn" xs={10} md={6} className="animate-slide-up">
+          <Col id="hero_image_ctn" xs={10} md={5} lg={5} className="animate-slide-up">
             <img
               id="hero_image"
               src={elettricistaImg}

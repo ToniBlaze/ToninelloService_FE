@@ -12,16 +12,20 @@ export function ServicesSection() {
   return (
     <section className="section-padding">
       <Container fluid>
-        <div className="text-center mb-5">
+
+        {/* Titolo e sottotitolo */}
+        <div className="text-center mb-5 pt-2">
           <h3 className="services-title">I Nostri Servizi</h3>
           <p className="services-subtitle">
             Offriamo una gamma completa di servizi per la casa con professionalità e rapidità
           </p>
         </div>
+
+        {/* Card servizi */}
         <Row>
           {services.map((service) => (
-            <Col key={service.id} md={6} lg={4} className="mb-4">
-              <Card className="service-card h-100">
+            <Col key={service.id} md={6} lg={4} className="mb-5 px-4 px-xxl-5 card-col">
+              <div className="custom-shadow-card service-card h-100">
                 {/* Immagine + icona in overlay */}
                 <div className="position-relative">
                   <img
@@ -49,10 +53,11 @@ export function ServicesSection() {
                     ))}
                   </div>
                 </CardContent>
-              </Card>
+              </div>
             </Col>
           ))}
         </Row>
+
       </Container>
     </section>
   );

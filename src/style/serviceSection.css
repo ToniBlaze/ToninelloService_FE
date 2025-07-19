@@ -11,15 +11,27 @@
 .services-subtitle {
   font-size: 1.125rem;
   color: #6c757d; /* text-gray-600 */
-  max-width: 600px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .service-card {
-  border: 1px solid #e9ecef;
+  border: 1px solid #f3f3f3;
   border-radius: 0.75rem;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
 }
+
+.custom-shadow-card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-shadow-card:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 28px;
+}
+
 
 .service-img {
   width: 100%;

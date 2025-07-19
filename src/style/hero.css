@@ -16,10 +16,15 @@
 }
 
 #hero_image {
-  height: 350px;
   width: 100%;
-  object-fit: "cover";
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
 }
+
+.hero-subtitle {
+  font-size: 1.1rem;
+}
+
 
 #book_appointment_btn {
   background: linear-gradient(135deg, hsla(24, 100%, 66%, 1) 0%, hsla(29, 100%, 40%, 1) 100%);
@@ -70,5 +75,9 @@
     margin-top: 70px;
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
   }
 }
